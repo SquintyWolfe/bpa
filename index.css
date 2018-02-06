@@ -1,0 +1,122 @@
+body 
+	{
+	float: left;
+	margin-top: 0em;
+	margin-right: 10em;
+	margin-bottom: 1em;
+	margin-left: 5em;
+	background-color: white;
+	color: black;
+	font-family: times new roman, sans-serif;
+	}
+#container
+	{
+
+    text-align: center;
+    float: right;
+    width: 25%;
+    padding: 2%;
+    margin: 2% 5% 2% 2%;
+    border: solid black;
+	
+	}
+nav
+	{
+    padding: 1%;
+    margin: 1.5%;
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1em;
+	}
+
+nav ul li
+	{
+    display: inline;
+    list-style-type: none;
+    padding: 1%;
+    margin: 1%;
+	}
+
+nav a
+	{
+    padding: 0 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+	}
+
+nav a:hover
+	{
+    color: black;
+    padding: 2% 1%;
+    background-color: red;
+    border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	}
+
+form
+	{
+	float: right;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	
+	font-size: 16px;
+	}
+
+form.special
+	{
+	margin: 0;
+	padding: 0.5em;
+	clear: both;
+	}
+
+label
+	{
+	width: 180px;
+	margin: 0 15px 0 4px;
+	color: black;
+	float: left;
+	text-align: right;
+	}
+
+legend
+	{
+	padding: 0 10px;
+	color: #354660;
+	font-weight: bold;
+	}
+
+fieldset
+	{
+	width: 80%;
+	margin: 1em;
+	border: solid 5px #354660;
+	padding: 0.5em;
+	
+	}
+	
+input.button
+	{
+	margin-top: 1em;
+	border: solid thin black;
+	background-color: white;
+	font-weight: bold;
+	display: inline;
+	}
+
+input
+	{
+	display: block;
+	}
+	
+footer	
+	{
+	color: #edefef;
+    clear: both;
+	background-color: red;
+	font-size: 1em;
+	text-align: center;
+	}
